@@ -32,8 +32,8 @@ body{
 }
 
 main{
-    height: 50%;
-    width: 40%;
+    height: 500px;
+    width: 700px;
     background-color: var(--White);
     border-radius: 1rem;
     overflow: hidden;
