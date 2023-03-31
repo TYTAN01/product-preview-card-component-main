@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+    font-family: "Fraunces";
+    src: url(./fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+:root{
+    /* Primary */
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    /*Neutral*/
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+
+html{
+    font-size: 1rem;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--Cream);
+}
+
+main{
+    height: 50%;
+    width: 40%;
+    background-color: var(--White);
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: 100%;
+    width: 50%;
+}
+
+.card{
+    height: 100%;
+    width: 50%;
+}
+
+.content{
+    height: 100%;
+    padding: 3rem 2rem 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.perfume{
+    font-family: "Montserrat";
+    font-weight: 200;
+    color: var(--Dark-grayish-blue);
+}
+
+h1{
+    font-family: "Fraunces";
+    font-size: 2.7rem;
+}
+
+.description{
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: var(--Dark-grayish-blue);
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+}
+.price-new{
+    font-family: "Fraunces";
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--Dark-cyan);
+}
+
+.price-old{
+    font-family: "Montserrat";
+    font-weight: 400;
+    padding-left: 1rem;
+    text-decoration: line-through;
+    color: var(--Dark-grayish-blue);
+}
+
+button{
+    height: 10%;
+    width: 100%;
+    background-color: var(--Dark-cyan);
+    border-radius: 0.5rem;
+    border: 0;
+}
+
+.icon{
+    height: 15px;
+    width: 15px;
+}
+
+.button-text{
+    padding-left: 0.7rem;
+    color: var(--White);
+    font-weight: 700;
+}
